@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Grid Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        
+        <div id="header-title">
+                <i class="fa-solid fa-circle" style="color: rgb(255, 255, 255);"></i>
+                <h6 style="color:white">Bridge Collective</h6>
+        </div>
+
+        <div id="header-menu-button">
+            <button onclick="showMenu()">
+                <i class="fa-solid fa-equals"></i>
+            </button>
+
+            <button style="display:none;" onclick="hideMenu()">
+                <i class="fa-solid fa-xmark" style="color: rgb(255, 255, 255);"></i>
+            </button>
+        </div>
+
+        <div id="navBar" style="display: none;">
+                <ul>
+                    <li>About</li>
+                    <li>Our Work</li>
+                    <li>Partners</li>
+                    <li>Annual report</li>
+                    <li>Donate</li>
+                </ul>
+        </div>
+
+    </header>
+
+    <div id="grid-container">
+
+       
+        <div id="grid-item-1">
+
+                <div id="text-box" class="text">
+                    
+                    <div class="mini-box">
+                    <h1 style="font-weight: lighter ;">A classromm for every child.</h1>
+                    </div>
+                    
+                    <div class="mini-box">
+                        <p class="paragraph"> We fund the school,train the teachers,and measure what works - so every child we reach today becomes a graduate tomorrow.</p>
+                    </div>
+                </div>
+
+        </div>
+
+        <div id="grid-item-2">
+
+            <div class="grid-mini-item">
+
+                <div class="mini-header">
+                <i class="fa-solid fa-wand-sparkles"></i>
+                <p class="text" style="font-weight:bolder;">2.4M</p>
+                </div>
+                
+               <div class="text Para-box">
+                <h4>Students reached</h4>
+                <p class="paragraph">Across 31 countries since 2011</p>
+               </div>
+
+            </div>
+
+            <div class="grid-mini-item">
+
+                <div class="mini-header">
+                <i class="fa-solid fa-plus"></i>
+                <p class="text" style="font-weight:bolder;">1,284</p>
+                </div>
+                
+                <div class="text Para-box">
+                <h4>Schools partnered</h4>
+                <p class="paragraph">in 14 countries, from Kenya to Guatemala </p>
+               </div>
+
+            </div>
+            
+            <div class="grid-mini-item">
+
+                <div class="mini-header">
+                <i class="fa-solid fa-arrow-right"></i>
+                <p class="text" style="font-weight:bolder;">38K</p>
+                </div>
+                
+                <div class="text Para-box">
+                <h4>Teachers trained</h4>
+                <p class="paragraph">Equipped with modern tools and methodology</p>
+               </div>
+
+            </div>
+
+            <div class="grid-mini-item">
+
+                <div class="mini-header">
+                <i class="fa-solid fa-arrow-trend-up"></i>
+                <p class="text" style="font-weight:bolder;">3.1x</p>
+                </div>
+                
+                <div class="text Para-box">
+                <h4>Graduation lift</h4>
+                <p class="paragraph">partner schools outperform national averages 3x</p>
+               </div>
+
+            </div>
+        </div>
+    
+        
+    </div>
+
+    <footer>
+        <div id="copy-right">
+        <i class="fa-regular fa-copyright"></i>
+        <p>Bridge Collective</p>
+        </div>
+
+        <div>
+        <p>Registry charity 12345678</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
