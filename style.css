@@ -87,3 +87,15 @@ footer{
     display:flex;
     align-items: center;
 }
+@media(max-width:400px){
+   
+    body{
+        display:block;
+    }
+    #grid-container{
+        display: block;
+    }
+    #grid-item-2{
+        display: block;
+    }  
+}
